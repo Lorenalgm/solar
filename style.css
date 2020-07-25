@@ -1,0 +1,14 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+:root{
+    --amarelo: #FFEA2D;
+    --cinza: #151414;
+}
+
+body{
+    background: black;
+    color: white;
+}
