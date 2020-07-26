@@ -11,4 +11,59 @@
 body{
     background: black;
     color: white;
+    background-image: url("assets/stars.png");
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3em 6em;
+}
+
+header h1{
+    font-size: 5em;
+    color: var(--amarelo);
+}
+
+header h2{
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.hero{
+    margin: 16em 0;
+    height: 25em;
+    text-align: center;
+}
+
+.hero-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 6em;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 5em;
+}
+
+.hero h3{
+    font-size: 2.4em;
+    font-weight: normal;
+    color: var(--amarelo);
+    margin-bottom: 1em;
+}
+
+button{
+    cursor: pointer;
+    border: solid 0;
+    width: 13em;
+    padding: 0.7em;
+    border-radius: 8px;
+    background-color: var(--amarelo);
+    font-size: 2.5em;
+    font-weight: bold;
 }
