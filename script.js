@@ -1,9 +1,11 @@
-var carousel = document.querySelector('.pictures');
+var start = document.querySelector('.start');
+var body = document.querySelector('.body-container');
+var form = document.querySelector('.form');
 
-carousel.addEventListener("wheel", event => {
-    if(event.deltaY > 0){
-        event.target.scrollBy(300,0);
-    }else{
-        event.target.scrollBy(-300,0);
-    }
-})
+function HandleForm(){
+    form.style.display = 'block';
+    body.style.display = 'none';
+}
+
+
+start.addEventListener("click", HandleForm);

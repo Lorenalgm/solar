@@ -137,3 +137,9 @@ button:hover{
 .picture {
     margin: 1em;
 }
+
+.form{
+    background-image: url("assets/stars.png");
+    height: 100vh;
+    display: none;
+}
