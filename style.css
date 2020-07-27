@@ -22,19 +22,18 @@ header{
 }
 
 header h1{
-    font-size: 5em;
+    font-size: 3em;
     color: var(--amarelo);
 }
 
 header h2{
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: normal;
 }
 
 .hero{
-    margin: 16em 0;
+    margin: 3em 0;
     height: 25em;
-    text-align: center;
 }
 
 .hero-content{
@@ -42,28 +41,99 @@ header h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 6em;
-    align-items: center;
+    line-height: 3.2em;
+    text-align: left;
+    margin: 0 6em;
 }
 
 .hero h1{
-    font-size: 5em;
+    font-size: 4.3em;
 }
 
 .hero h3{
-    font-size: 2.4em;
+    font-size: 1.5em;
     font-weight: normal;
     color: var(--amarelo);
-    margin-bottom: 1em;
+    margin-bottom: 0.7em;
 }
 
 button{
     cursor: pointer;
     border: solid 0;
-    width: 13em;
-    padding: 0.7em;
+    width: 11em;
+    padding: 0.6em;
     border-radius: 8px;
     background-color: var(--amarelo);
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: bold;
+}
+
+button:hover{
+    transition: 30ms;
+    background-color: rgb(211, 192, 20);
+}
+
+
+.destinations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.destiny{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.destiny-card{
+    background-color: var(--cinza);
+    height: 13em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.destiny-card h1{
+    margin: 1em 0;
+    font-size: 3em;
+    display: flex;
+    line-height: 0.4;
+    color: var(--amarelo);
+}
+
+.destiny-card h1 span{
+    font-size: 0.4em;
+    font-weight: normal;
+    color: white;
+}
+
+.destiny button{
+    width: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.destiny-planet{
+    text-align: left;
+    position: relative;
+    right: 6em;
+}
+
+.destiny-planet .earth{
+    font-weight: normal;
+}
+
+.pictures{
+    margin: 5em 2em;
+    display: flex;
+    overflow:  hidden;
+}
+
+.picture {
+    margin: 1em;
 }
