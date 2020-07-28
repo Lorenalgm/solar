@@ -143,3 +143,58 @@ button:hover{
     height: 100vh;
     display: none;
 }
+
+.form-pag1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-pag2{
+    height: 100vh;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.form-pag3{
+    display: none;
+    height: 100vh;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 20em;
+    align-content: center;
+}
+
+.form-data input{
+    width: 20em;
+    padding: 1.2em;
+    margin-bottom: 2em;
+    background-color: var(--cinza);
+    border-radius: 8px;
+    border: unset;
+    font-size: 1.1em;
+    color: white;
+}
+
+.form-header{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.form-planets{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 20em;
+    align-content: center;
+}
