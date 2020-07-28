@@ -198,3 +198,21 @@ button:hover{
     height: 20em;
     align-content: center;
 }
+
+.form-planets img{
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.form-planets img:hover{
+    opacity: 80%;
+}
+
+.form-pag2 .form-header{
+   margin-top: 3em;
+   margin-bottom: 3em;
+}
+
+.go_to_page3{
+   margin-top: 1em;
+}
