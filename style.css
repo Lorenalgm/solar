@@ -1,6 +1,7 @@
 *, html {
     margin:0;
-    padding:0;  
+    padding:0;
+    box-sizing: border-box;  
 }
 
 html{
@@ -143,20 +144,21 @@ button:hover{
 }
 
 .form{
+    margin:0;
     background-image: url("assets/stars.png");
-    height: 100vh;
     display: none;
 }
 
 .form-pag1{
-    height: 100vh;
+    margin:0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 35em;
 }
 
 .form-pag2{
-    height: 100vh;
+    margin:0;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -166,7 +168,6 @@ button:hover{
 
 .form-pag3{
     display: none;
-    height: 100vh;
     flex-direction: column;
     text-align: center;
 }
@@ -214,14 +215,9 @@ button:hover{
 }
 
 .form-pag2 .form-header{
-   margin-top: 3em;
+   margin-top: 2em;
    margin-bottom: 3em;
 }
-
-.go_to_page3{
-   margin-top: 1em;
-}
-
 
 .form-pag3 .form-header{
     margin-top: 4em;
@@ -238,7 +234,6 @@ button:hover{
 
 .form-pag4{
     display: none;
-    height: 100vh;
     flex-direction: column;
     margin: 5em auto;
 }
@@ -252,6 +247,7 @@ button:hover{
     grid-template-columns: repeat(3, 100%);
     overflow: hidden;
     scroll-behavior: smooth;
+    height: 25em;
 }
 
 section{
