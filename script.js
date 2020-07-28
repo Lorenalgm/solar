@@ -3,9 +3,11 @@ var body = document.querySelector('.body-container');
 var form = document.querySelector('.form');
 var button1 = document.querySelector('.go_to_page2');
 var button2 = document.querySelector('.go_to_page3');
+var button3 = document.querySelector('.go_to_page4');
 var pag1 = document.querySelector('.form-pag1');
 var pag2 = document.querySelector('.form-pag2');
 var pag3 = document.querySelector('.form-pag3');
+var pag4 = document.querySelector('.form-pag4');
 
 function HandleForm(){
     form.style.display = 'block';
@@ -29,3 +31,11 @@ function HandlePaginate3(){
 }
 
 button2.addEventListener("click", HandlePaginate3);
+
+
+function HandlePaginate4(){
+    pag4.style.display = 'block';
+    pag3.style.display = 'none';
+}
+
+button3.addEventListener("click", HandlePaginate4);

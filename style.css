@@ -164,6 +164,9 @@ button:hover{
 .form-pag3{
     display: none;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .form-data{
@@ -215,4 +218,30 @@ button:hover{
 
 .go_to_page3{
    margin-top: 1em;
+}
+
+
+.form-pag3 .form-header{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.form-pag3 .form-data{
+    height: 14em;
+}
+
+.form-pag3 button{
+    width: 13em;
+}
+
+.form-pag4{
+    display: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5em auto;
+}
+
+.confirmation{
+    text-align: center;
 }
