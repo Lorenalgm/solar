@@ -3,6 +3,10 @@
     padding:0;  
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --amarelo: #FFEA2D;
     --cinza: #151414;
@@ -154,7 +158,6 @@ button:hover{
 .form-pag2{
     height: 100vh;
     display: none;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -164,7 +167,6 @@ button:hover{
 .form-pag3{
     display: none;
     height: 100vh;
-    display: flex;
     flex-direction: column;
     text-align: center;
 }
@@ -202,12 +204,12 @@ button:hover{
     align-content: center;
 }
 
-.form-planets img{
+.form-planets section img{
     margin-right: 2em;
     cursor: pointer;
 }
 
-.form-planets img:hover{
+.form-planets section img:hover{
     opacity: 80%;
 }
 
@@ -237,7 +239,6 @@ button:hover{
 .form-pag4{
     display: none;
     height: 100vh;
-    display: flex;
     flex-direction: column;
     margin: 5em auto;
 }
@@ -245,3 +246,41 @@ button:hover{
 .confirmation{
     text-align: center;
 }
+
+.form-planets{
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+
+a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background:rgb(0,0,0);
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+
+  }
+
+  .left{
+    top:0; bottom:0; left:0;
+    background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  }
+
+  .right{
+    top:0; bottom:0; right: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  }
