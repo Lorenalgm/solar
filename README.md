@@ -29,7 +29,7 @@ O site possui a exibição de preços das passagens e galeria de fotos dos passa
 A aplicação poderá ser acessada pelo link: 
 
 <p align="center">
-<img src="https://i.ibb.co/vsC1RzD/solar.gif" alt="Exemplo do solar">
+<img src="https://i.ibb.co/BK7S5cD/solardemo.gif" alt="Exemplo do solar">
 </p>
 
 
