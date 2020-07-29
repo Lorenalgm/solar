@@ -26,11 +26,11 @@ O site possui a exibição de preços das passagens e galeria de fotos dos passa
 
 ### Live
 
-A aplicação poderá ser acessada pelo link: 
+A aplicação poderá ser acessada (em breve) pelo link: solar.lorenalgm.vercel.app 
 
 <p align="center">
-<img src="https://i.ibb.co/BK7S5cD/solardemo.gif" alt="Exemplo do solar">
-</p>
+    <img src="https://i.ibb.co/4gD5nKy/solardemo.gif" alt="Exemplo do solar">
+ </p>
 
 
 ### :computer: Tecnologias:
