@@ -21,12 +21,30 @@ start.addEventListener("click", HandleForm);
 function HandlePaginate2(){
     pag2.style.display = 'block';
     pag1.style.display = 'none';
+
+    var nome = document.querySelector('.nome');
+    var cpf = document.querySelector('.cpf');
+    var email = document.querySelector('.email');
+
+    var info_nome = document.createElement('div');
+    info_nome.textContent = `Nome: ${nome.value}`;
+    
+    var info_cpf = document.createElement('div');
+    info_cpf.textContent = `CPF: ${cpf.value}`;
+
+    var info_email = document.createElement('div');
+    info_email.textContent = `E-mail: ${email.value}`;
+    
+    var data = document.querySelector('.data');
+    data.append(info_nome);
+    data.append(info_cpf);
+    data.append(info_email);
 }
 
 button1.addEventListener("click", HandlePaginate2);
 
 function HandlePaginate3(){
-    pag3.style.display = 'block';
+    pag3.style.display = 'block';  
     pag2.style.display = 'none';
 }
 
